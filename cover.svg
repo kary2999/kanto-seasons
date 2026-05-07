@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fafaf6"/>
+      <stop offset="100%" stop-color="#f1efe6"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="30%" cy="30%" r="60%">
+      <stop offset="0%" stop-color="#e8538a" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#e8538a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- 背景 -->
+  <rect width="1200" height="630" fill="url(#bg-grad)"/>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+
+  <!-- 樱花点 -->
+  <circle cx="100" cy="540" r="4" fill="#e8538a"/>
+  <circle cx="130" cy="555" r="3" fill="#e8538a"/>
+  <circle cx="160" cy="540" r="4" fill="#e8538a"/>
+  <circle cx="180" cy="560" r="3" fill="#4d6a47"/>
+  <circle cx="220" cy="545" r="4" fill="#4d6a47"/>
+  <!-- 季节标签 -->
+  <text x="60" y="100" font-family="JetBrains Mono, monospace" font-size="11" letter-spacing="4" fill="#e8538a" font-weight="bold">SPRING · 春 · 立夏</text>
+
+
+  <!-- 编号 + 区域 -->
+  <text x="60" y="75" font-family="JetBrains Mono, monospace" font-size="14" letter-spacing="4" fill="#e8538a" font-weight="bold">NO. 08 · 远方来信 · LETTERS FROM AFAR</text>
+
+  <!-- 主标题 中文 -->
+  <text x="60" y="320" font-family="STSong, 'Songti SC', serif" font-size="120" fill="#1f2024" font-weight="700" letter-spacing="0.04em">关东·四季</text>
+
+  <!-- 主标题 英文 -->
+  <text x="60" y="380" font-family="JetBrains Mono, monospace" font-size="22" fill="#4d6a47" letter-spacing="8" font-weight="bold">KANTO SEASONS</text>
+
+  <!-- Tagline -->
+  <text x="60" y="475" font-family="STSong, serif" font-size="34" fill="#1f2024" font-weight="400" opacity="0.9">关东的四季出行</text>
+
+  <!-- 区域 -->
+  <text x="60" y="595" font-family="JetBrains Mono, monospace" font-size="13" letter-spacing="6" fill="#4d6a47" font-weight="bold">关东 · 首都圈</text>
+
+  <!-- 站点 URL -->
+  <text x="1140" y="595" text-anchor="end" font-family="JetBrains Mono, monospace" font-size="12" letter-spacing="2" fill="#e8538a" font-weight="bold">kary2999.github.io/kanto-seasons/</text>
+</svg>
